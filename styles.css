@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+h2{
+    color: aliceblue;
+}
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+button {
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.products div {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+#cart-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cart-items div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    border: 1px solid #ddd;
+    width: 50%;
+    margin:1rem;
+}
+#cart-items div button{
+    width: 40%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header button{
+    width: 30%;
+}
+a{
+    color: aliceblue;
+}
