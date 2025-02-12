@@ -19,7 +19,7 @@ function checkAuth() {
 
 function logoutUser() {
     localStorage.removeItem('user');
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
 }
 
 // Handle Products and Cart
